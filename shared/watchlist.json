@@ -1,0 +1,144 @@
+{
+  "watchlist": {
+    "version": "1.0",
+    "last_updated": "2025-01-07T12:00:00Z",
+    "description": "Standardized watchlist for CyberNinja Trader Pro",
+    "tickers": [
+      {
+        "symbol": "AAPL",
+        "priority": 1,
+        "notes": "Apple Inc. - Technology bellwether",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "MSFT", 
+        "priority": 1,
+        "notes": "Microsoft Corporation - Cloud computing leader",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "NVDA",
+        "priority": 1,
+        "notes": "NVIDIA Corporation - AI and GPU leader",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "GOOGL",
+        "priority": 1,
+        "notes": "Alphabet Inc. - Search and advertising giant",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "AMZN",
+        "priority": 1,
+        "notes": "Amazon.com Inc. - E-commerce and cloud services",
+        "sector": "Consumer Discretionary",
+        "enabled": true
+      },
+      {
+        "symbol": "META",
+        "priority": 1,
+        "notes": "Meta Platforms Inc. - Social media and metaverse",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "TSLA",
+        "priority": 1,
+        "notes": "Tesla Inc. - Electric vehicles and energy",
+        "sector": "Consumer Discretionary",
+        "enabled": true
+      },
+      {
+        "symbol": "NFLX",
+        "priority": 2,
+        "notes": "Netflix Inc. - Streaming entertainment",
+        "sector": "Communication Services",
+        "enabled": true
+      },
+      {
+        "symbol": "AMD",
+        "priority": 2,
+        "notes": "Advanced Micro Devices - Semiconductor",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "INTC",
+        "priority": 2,
+        "notes": "Intel Corporation - Semiconductor",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "PLTR",
+        "priority": 2,
+        "notes": "Palantir Technologies - Data analytics",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "CRM",
+        "priority": 2,
+        "notes": "Salesforce Inc. - Cloud CRM",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "BA",
+        "priority": 2,
+        "notes": "Boeing Company - Aerospace and defense",
+        "sector": "Industrials",
+        "enabled": true
+      },
+      {
+        "symbol": "JPM",
+        "priority": 2,
+        "notes": "JPMorgan Chase & Co. - Investment banking",
+        "sector": "Financials",
+        "enabled": true
+      },
+      {
+        "symbol": "AMC",
+        "priority": 3,
+        "notes": "AMC Entertainment - Movie theaters",
+        "sector": "Communication Services",
+        "enabled": true
+      },
+      {
+        "symbol": "MARA",
+        "priority": 3,
+        "notes": "Marathon Digital Holdings - Bitcoin mining",
+        "sector": "Technology",
+        "enabled": true
+      },
+      {
+        "symbol": "RIOT",
+        "priority": 3,
+        "notes": "Riot Platforms Inc. - Bitcoin mining",
+        "sector": "Technology", 
+        "enabled": true
+      },
+      {
+        "symbol": "BABA",
+        "priority": 2,
+        "notes": "Alibaba Group Holding - Chinese e-commerce",
+        "sector": "Consumer Discretionary",
+        "enabled": true
+      }
+    ]
+  },
+  "settings": {
+    "auto_update": true,
+    "max_concurrent_analysis": 10,
+    "priority_weighting": {
+      "1": "High priority - continuous monitoring",
+      "2": "Medium priority - regular monitoring", 
+      "3": "Low priority - periodic monitoring"
+    }
+  }
+}

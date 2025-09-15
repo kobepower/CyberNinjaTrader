@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+.env
+*.env
+
+# Local configs
+config.json
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+myenv/
+cybertrader_claude/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Compiled / build stuff
+*.so
+*.dll
+*.exe
+*.out
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Backup files
+*~
+*.swp
